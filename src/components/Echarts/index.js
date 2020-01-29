@@ -10,7 +10,7 @@ export default class App extends Component {
     this.setNewOption = this.setNewOption.bind(this)
   }
 
-  componentWillReceiveProps(nextProps) {
+  UNSAFE_componentWillReceiveProps(nextProps) {
     if (nextProps.option !== this.props.option) {
       this.refs.chart.reload()
     }
