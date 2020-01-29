@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/showtan001/react-native-echarts#readme",
   "dependencies": {
-    "echarts": "3.2.3"
+    "echarts": "3.2.3",
+    "react-native-webview": "^8.0.5"
   }
 }
